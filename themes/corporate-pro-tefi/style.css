@@ -3769,6 +3769,11 @@ ul.testimonials-list h5 {
 	background-color: rgba(255, 255, 255, 0.3);
 }
 
+#simple-social-icons-2{
+	display: flex;
+	justify-content: center;
+}
+
 /* # Media Queries
 --------------------------------------------- */
 
@@ -3787,6 +3792,13 @@ ul.testimonials-list h5 {
 	.has-hero-slider .front-page-1 p {
 		line-height: 1.618;
 	}
+
+
+	#simple-social-icons-2{
+		display: flex;
+		justify-content: center;
+	}
+	
 }
 
 @media (min-width: 512px) {
@@ -3860,6 +3872,10 @@ ul.testimonials-list h5 {
 		display: inline-block;
 		width: auto;
 		margin: 0 0.2em 1em;
+	}
+	#simple-social-icons-2{
+		display: flex;
+		justify-content: center;
 	}
 }
 
@@ -4221,6 +4237,13 @@ ul.testimonials-list h5 {
 	.footer-credits .simple-social-icons {
 		margin-bottom: 0;
 	}
+
+	#simple-social-icons-2{
+		display: flex;
+		justify-content: left;
+	}
+
+	
 	.front-page-widget {
 		padding: 10rem 0;
 	}

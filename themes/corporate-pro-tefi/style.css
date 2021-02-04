@@ -3769,9 +3769,10 @@ ul.testimonials-list h5 {
 	background-color: rgba(255, 255, 255, 0.3);
 }
 
-#simple-social-icons-2{
+.footer-class .wrap{
 	display: flex;
 	justify-content: center;
+	text-align: center;
 }
 
 /* # Media Queries
@@ -3794,9 +3795,10 @@ ul.testimonials-list h5 {
 	}
 
 
-	#simple-social-icons-2{
+	.footer-class .wrap{
 		display: flex;
 		justify-content: center;
+		text-align: center;
 	}
 	
 }
@@ -3873,9 +3875,10 @@ ul.testimonials-list h5 {
 		width: auto;
 		margin: 0 0.2em 1em;
 	}
-	#simple-social-icons-2{
+	.footer-class .wrap{
 		display: flex;
 		justify-content: center;
+		text-align: center;
 	}
 }
 
@@ -4238,9 +4241,9 @@ ul.testimonials-list h5 {
 		margin-bottom: 0;
 	}
 
-	#simple-social-icons-2{
+	.footer-class .wrap{
 		display: flex;
-		justify-content: left;
+		justify-content: space-between;
 	}
 
 	
